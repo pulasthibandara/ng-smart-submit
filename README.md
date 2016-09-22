@@ -35,9 +35,8 @@ property will be set true until the promise resolves or rejects
         type="submit"
         ng-disable="testForm.$submitProgress || testForm.$invalid" >
     </button>
-    <!-- show loader on submit ->
+    <!-- show loader on submit -->
     <img src="progress.gif" alt="form progress">
-    <!-- show loader on submit ->
 </form>
 ```
 
