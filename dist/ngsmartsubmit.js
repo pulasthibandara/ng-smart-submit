@@ -69,7 +69,7 @@
 
         return $delegate;
     }
-});
+})();
 'use strict';
 
 (function () {
@@ -98,7 +98,7 @@
                 }
 
                 var temp = {},
-                    value = $scope.value ? scope.value : {};
+                    value = $scope.value ? $scope.value : {};
 
                 Object.keys($scope.options.model).forEach(function (key) {
                     temp[key] = undefined;
