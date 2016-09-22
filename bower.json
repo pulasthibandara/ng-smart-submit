@@ -1,0 +1,23 @@
+{
+  "name": "ng-smart-submit",
+  "description": "Adds smart features to default ng-submit",
+  "main": "gulpfile.js",
+  "authors": [
+    "pulasthibandara"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "smart-submit",
+    "submit",
+    "angular",
+    "form"
+  ],
+  "homepage": "https://github.com/pulasthibandara/ng-smart-submit",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

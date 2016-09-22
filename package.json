@@ -15,6 +15,27 @@
   "author": "pulasthibandara",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.1"
-  }
+    "babel-preset-es2015": "^6.14.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-if": "^2.0.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
+    "jshint": "^2.9.3",
+    "jshint-stylish": "^2.2.1"
+  },
+  "dependencies": {
+    "angular": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pulasthibandara/ng-smart-submit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pulasthibandara/ng-smart-submit/issues"
+  },
+  "homepage": "https://github.com/pulasthibandara/ng-smart-submit#readme"
 }
